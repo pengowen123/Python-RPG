@@ -774,10 +774,7 @@ def town():
     else:
         print "Invalid input"
         town()
-try:
-    town()
-except:
-    town()
-    
+
+town()
 
 save()
